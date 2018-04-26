@@ -1,0 +1,22 @@
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+    <attr path="/api/package[@name='com.squareup.picasso']" name="managedName">Square.Picasso</attr>
+
+    <!-- deprecated -->
+    <remove-node path="/api/package/class[@visibility='']" />
+    <remove-node path="/api/package/class/method[@deprecated='deprecated']" />
+
+    <!-- property names -->
+    <attr path="/api/package[@name='com.squareup.picasso']/interface[@name='Transformation']/method[@name='key']" name="managedName">GetKey</attr>
+    <attr path="/api/package[@name='com.squareup.picasso']/interface[@name='Picasso.Listener']/method[@name='onImageLoadFailed']/parameter[1]" name="managedName">picasso</attr>
+    <attr path="/api/package[@name='com.squareup.picasso']/interface[@name='Picasso.Listener']/method[@name='onImageLoadFailed']/parameter[2]" name="managedName">uri</attr>
+    <attr path="/api/package[@name='com.squareup.picasso']/interface[@name='Picasso.Listener']/method[@name='onImageLoadFailed']/parameter[3]" name="managedName">exception</attr>
+
+</metadata>
