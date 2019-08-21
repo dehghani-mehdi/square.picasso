@@ -1,4 +1,4 @@
-&#9888; This project is not maintained anymore, use [this one](https://github.com/rightek/square.picasso) instead.
+# &#9888; Moved to [square.picasso](https://github.com/rightek/square.picasso) (_This project is not maintained anymore_)
 
 # Picasso
  Xamarin Android binding for [Square Picasso](https://github.com/square/picasso) (A powerful image downloading and caching library for Android)
